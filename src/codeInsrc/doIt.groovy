@@ -1,12 +1,10 @@
 package codeInsrc
 
 
-class doIt
-{
-   String FOOSPRoperty
-}
-
+class doIt{
+ 
 def a_method()
-{
- println "hi"
+   {
+   println "hi"
+   }
 }
