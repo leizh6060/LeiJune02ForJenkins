@@ -5,6 +5,6 @@ class doIt{
  
 def a_method( )
    {
-    println "Lei"
+    echo "Lei"
    }
 }
