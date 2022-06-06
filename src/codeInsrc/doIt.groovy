@@ -1,7 +1,10 @@
 package codeInsrc
 
 class doIt implements Serializable {
-def doIt(name) {
+    doIt(def script) {
+        this.script = script
+    }
+def doItLei(name) {
     return "The name is : ${name}"
 }
 }
