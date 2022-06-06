@@ -1,9 +1,9 @@
 package codeInsrc
-def String name
-class doIt {
-   def buildIsUatApproved() {
+
+def doIt {
+   
      println "approved"
-    }
+   
     // return "The name is : Lei"
   //  println "Lei"
 }
