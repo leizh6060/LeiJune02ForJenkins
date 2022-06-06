@@ -1,6 +1,6 @@
 package codeInsrc
 
-def doItLei(name) {
+def doIt(name) {
     return "The name is : ${name}"
 }
 
