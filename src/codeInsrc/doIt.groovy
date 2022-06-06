@@ -1,6 +1,6 @@
 package codeInsrc
 
-def doIt(name) {
+class doIt(name) {
     return "The name is : ${name}"
 }
 
