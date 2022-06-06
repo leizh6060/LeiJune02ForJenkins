@@ -1,10 +1,12 @@
 package codeInsrc
 
-def doIt() {
+class doIt {
+def LeidoIt() {
    
      println "approved"
    
     // return "The name is : Lei"
   //  println "Lei"
+}
 }
 
