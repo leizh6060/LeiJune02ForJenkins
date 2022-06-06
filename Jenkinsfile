@@ -6,9 +6,13 @@ pipeline {
     stages {
         stage('01') {
                   steps {
-                      doIt d = new doIt()
                      
-                echo "The build has been approved!!!"
+                  steps {
+                script { 
+                     doIt d = new doIt()
+                   //def x= new MultiMethod();
+		
+                }
             }
         }
 
