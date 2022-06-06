@@ -9,7 +9,7 @@ pipeline {
                      
                
                 script { 
-                     def d = new doIt(this)
+                     def d = new doIt()
 			
 			d.LeidoIt()
                    //def x= new MultiMethod();
