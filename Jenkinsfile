@@ -7,7 +7,7 @@ pipeline {
         stage('01') {
                   steps {
                       def d = new doIt()
-                      d.
+                     
                 echo "The build has been approved!!!"
             }
         }
