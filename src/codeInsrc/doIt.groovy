@@ -1,9 +1,10 @@
 package codeInsrc
 
 class doIt {
-def LeidoIt() {
+   def String name = "Lei"
+def LeidoIt( String name) {
    
-     echo "lei"
+   println ${name}
    
     // return "The name is : Lei"
   //  println "Lei"
