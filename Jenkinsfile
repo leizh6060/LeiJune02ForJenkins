@@ -7,7 +7,7 @@ pipeline {
             steps {
                 script {
                 
-                 def x= new doItLei("stage 01")
+                 def x= new doIt("stage 01")
                     println x
                 }
                 //println doItLei("stage 01")
