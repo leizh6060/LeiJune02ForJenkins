@@ -1,27 +1,17 @@
 @Library('june02Lib@main') _
 import codeInsrc.*
+    def doIt = new doIt()
 pipeline {
     agent any;
     stages {
         stage('01') {
+           when {
+                expression { doIt.buildIsUatApproved() }
+            }
             steps {
-                script {
-                
-                 def x= new doIt()
-                    println x
-                }
-                //println doItLei("stage 01")
-              //  executeScript()
+                echo "The build has been approved!!!"
             }
         }
-        stage('02') {
-            steps {
-              script {
-                
-                 def x= new doIt()
-                    println x
-                }
-            }
-        }
+
     }
 }
