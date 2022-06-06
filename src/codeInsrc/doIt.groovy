@@ -1,6 +1,7 @@
 package codeInsrc
 def String name
 class doIt {
-    return "The name is : Lei"
+   // return "The name is : Lei"
+    println "Lei"
 }
 
