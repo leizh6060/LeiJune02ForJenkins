@@ -5,7 +5,12 @@ pipeline {
     stages {
         stage('01') {
             steps {
-                println doItLei("stage 01")
+                script {
+                
+                 def x= new doItLei("stage 01")
+                    println x
+                }
+                //println doItLei("stage 01")
               //  executeScript()
             }
         }
