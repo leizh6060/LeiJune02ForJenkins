@@ -9,7 +9,7 @@ pipeline {
                      
                
                 script { 
-                     def d = new doIt()
+                     def d = new doIt(this)
 			
 			d.a_method()
                    //def x= new MultiMethod(name);
