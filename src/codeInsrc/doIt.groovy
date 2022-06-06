@@ -1,6 +1,6 @@
 package codeInsrc
 
-def doIt {
+def doIt() {
    
      println "approved"
    
