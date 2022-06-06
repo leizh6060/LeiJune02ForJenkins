@@ -5,10 +5,7 @@ pipeline {
     agent any;
     stages {
         stage('01') {
-           when {
-                expression { doIt.buildIsUatApproved() }
-            }
-            steps {
+                  steps {
                 echo "The build has been approved!!!"
             }
         }
