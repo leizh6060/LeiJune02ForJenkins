@@ -10,9 +10,9 @@ pipeline {
                
                 script { 
                      def d = new doIt()
-			
+			def String name = "Leo"
 			d.a_method()
-                   //def x= new MultiMethod();
+                   //def x= new MultiMethod(name);
 		
                 }
             }
