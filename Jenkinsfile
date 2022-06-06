@@ -11,7 +11,7 @@ pipeline {
                 script { 
                      doIt d = new doIt()
                    //def x= new MultiMethod();
-		
+		}
                 }
             }
         }
