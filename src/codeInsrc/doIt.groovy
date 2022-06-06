@@ -3,8 +3,8 @@ package codeInsrc
 
 class doIt{
  
-def a_method()
+def a_method( String name)
    {
-   println "hi"
+    println ${name}
    }
 }
