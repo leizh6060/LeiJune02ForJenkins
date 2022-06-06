@@ -1,3 +1,5 @@
+@Library('june02Lib') _
+import codeInsrc.*
 pipeline {
     agent any;
     stages {
