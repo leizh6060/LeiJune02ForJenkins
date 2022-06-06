@@ -11,7 +11,7 @@ pipeline {
                 script { 
                      def d = new doIt()
 			
-			d.LeidoIt()
+			d.a_method()
                    //def x= new MultiMethod();
 		
                 }
