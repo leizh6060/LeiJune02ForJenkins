@@ -16,8 +16,11 @@ pipeline {
         }
         stage('02') {
             steps {
-                println doItLei("stage 02")
-             //   executeScript()
+              script {
+                
+                 def x= new doIt("stage 02")
+                    println x
+                }
             }
         }
     }
