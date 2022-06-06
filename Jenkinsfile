@@ -7,11 +7,11 @@ pipeline {
         stage('01') {
                   steps {
                      
-                  steps {
+               
                 script { 
                      doIt d = new doIt()
                    //def x= new MultiMethod();
-		}
+		
                 }
             }
         }
