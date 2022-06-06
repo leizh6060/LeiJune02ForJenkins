@@ -8,6 +8,5 @@ class doIt
 
 def a_method()
 {
-  doIt f = new doIt()
-  f.foosPROPERTY.replace( "x", "y" )
+ println "hi"
 }
