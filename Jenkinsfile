@@ -13,6 +13,7 @@ pipeline {
 			
 			def String name = "Lei"
 			d.a_method(name)
+			d.showName(firstName:"Lei", lastName:"zhu")
                    //def x= new MultiMethod(name);
 		
                 }
