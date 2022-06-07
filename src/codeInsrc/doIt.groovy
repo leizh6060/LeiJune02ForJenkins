@@ -10,14 +10,14 @@ package codeInsrc
 //}
 
 class doIt {
-    def steps;
-    doIt(steps) {
-        this.steps = steps
+    def steps2;
+    doIt(steps2) {
+        this.steps2 = steps2
     }
     def a_method() {
-        steps.echo "Hello foo from src/org/any/MultiMethod.groovy"
+        steps2.echo "Hello foo from src/org/any/MultiMethod.groovy"
     }
     def bar() {
-        steps.echo "Hello bar from src/org/any/MultiMethod.groovy"
+        steps2.echo "Hello bar from src/org/any/MultiMethod.groovy"
     }
 }
