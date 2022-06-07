@@ -14,8 +14,8 @@ class doIt {
     doIt(steps2) {
         this.steps2 = steps2
     }
-    def a_method() {
-        steps2.echo "Hello foo from src/org/any/MultiMethod.groovy"
+    def a_method( String name) {
+     steps2.echo "Hello ${name} foo from src/org/any/MultiMethod.groovy"
     }
     def bar() {
         steps2.echo "Hello bar from src/org/any/MultiMethod.groovy"
