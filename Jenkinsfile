@@ -11,7 +11,8 @@ pipeline {
                 script { 
                      def d = new doIt(this)
 			
-			d.a_method()
+			def String name = "Lei"
+			d.a_method(name)
                    //def x= new MultiMethod(name);
 		
                 }
