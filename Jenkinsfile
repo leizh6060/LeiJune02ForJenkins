@@ -15,8 +15,15 @@ pipeline {
 			def String name = "Lei"
 			d.a_method(name)
 			d.showName(firstName:"Lei", lastName:"zhu")
-			d.StudentID = 1
-                   //def x= new MultiMethod(name);
+			
+                  Student st = new Student(); 
+      st.StudentID = 1;
+		
+      st.Marks1 = 10; 
+      st.name="Joe"; 
+		
+      println(st.name); 
+      println(st.DisplayMarks()); 
 		
                 }
             }
