@@ -8,7 +8,7 @@ class Student extends Person {
       super(); 
    } 
 	
-   void DisplayMarks() { 
+   void DisplayMarks(def Marks1 ) { 
       println(Marks1); 
    }  
 } 
