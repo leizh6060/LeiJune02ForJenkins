@@ -1,11 +1,7 @@
-<<<<<<< HEAD
+
 @Library('june02Lib') _
 import codeInsrc.*
-=======
-@Library('june02Lib@main') _
-import codeInsrc.*
-    
->>>>>>> 7b4588257649227d84f2ac60151c130947fa2a14
+
 pipeline {
     agent any;
     stages {
