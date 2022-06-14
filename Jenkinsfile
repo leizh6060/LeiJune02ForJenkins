@@ -23,7 +23,7 @@ pipeline {
       st.name="Joe"; 
 		
       println(st.name); 
-      println(st.DisplayMarks()); 
+      println(st.DisplayMarks(st.Marks1)); 
 		
                 }
             }
