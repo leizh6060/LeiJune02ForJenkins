@@ -1,6 +1,8 @@
 // Jenkinsfile
 @Library('june02Lib') _
 import org.*
+
+def utils = new Utilities(this)
 pipeline {
     agent any
 
