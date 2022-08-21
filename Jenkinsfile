@@ -6,7 +6,7 @@ pipeline {
         stage('Foo') {
             steps {
                 script {
-                    new DeclarativeFooStage(this).execute('something', false)
+                     DeclarativeFooStage(this).execute('something', false)
                 }
             }
         }
