@@ -1,4 +1,6 @@
 // Jenkinsfile
+@Library('june02Lib') _
+import org.*
 pipeline {
     agent any
 
