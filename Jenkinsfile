@@ -8,7 +8,7 @@ pipeline {
         stage('Foo') {
             steps {
                 script {
-                     DeclarativeFooStage(this).execute('something', false)
+               def d = new     DeclarativeFooStage(this).execute('something', false)
                 }
             }
         }
