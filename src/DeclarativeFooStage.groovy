@@ -1,8 +1,8 @@
 // src/DeclarativeFooStage.groovy
 class DeclarativeFooStage {
-    private final Script1 script1
+    private final Script script1
 
-    DeclarativeFooStage(Script1 script1) {
+    DeclarativeFooStage(Script script1) {
         this.script1 = script1
     }
 
