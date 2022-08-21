@@ -1,6 +1,6 @@
 // Jenkinsfile
 @Library('june02Lib') _
-import org.*
+import org.foo*
 
 def utils = new Utilities(this)
 pipeline {
