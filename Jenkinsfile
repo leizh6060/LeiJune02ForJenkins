@@ -2,7 +2,7 @@
 @Library('june02Lib') _
 import org.foo.*
 
-def utils = new Utilities(this)
+//def utils = new Utilities(this)
 pipeline {
     agent any
 
@@ -10,7 +10,9 @@ pipeline {
         stage('Foo') {
             steps {
                 script {
-               def d = new     DeclarativeFooStage(this).execute('something', false)
+               def utils = new Utilities(this)
+		utils.mvn 'clean package'
+		def d = new     DeclarativeFooStage(this).execute('something', false)
                 }
             }
         }
